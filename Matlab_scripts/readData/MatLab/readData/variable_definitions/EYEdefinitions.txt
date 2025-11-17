@@ -1,0 +1,47 @@
+EYE
+EYE_sample_time
+TRIAL_fixate
+TRIAL_fixate
+EYE_sample_time
+EYE_raw_right_x
+(EYE_sample_time && EYE_raw_right_y) || ~(EYE_sample_time || EYE_raw_right_y)
+EYE_raw_right_y
+EYE_sample_time && EYE_raw_right_x
+EYE_raw_left_x
+EYE_sample_time && EYE_raw_left_y
+EYE_raw_left_y
+EYE_sample_time && EYE_raw_left_x
+EYE_raw_x
+EYE_sample_time && EYE_raw_y && EYE_calib_x && EYE_calib_y
+EYE_raw_y
+EYE_sample_time && EYE_raw_x && EYE_calib_x && EYE_calib_y
+EYE_raw_z
+EYE_sample_time && EYE_raw_x && EYE_raw_y && EYE_calib_x && EYE_calib_y && EYE_calib_z
+EYE_href_right_x
+EYE_sample_time && EYE_href_right_y
+EYE_href_right_y
+EYE_sample_time && EYE_href_right_x
+EYE_href_left_x
+EYE_sample_time && EYE_href_left_y
+EYE_href_left_y
+EYE_sample_time && EYE_href_left_x
+EYE_pupil_right_x
+EYE_sample_time && EYE_pupil_right_y
+EYE_pupil_right_y
+EYE_sample_time && EYE_pupil_right_x
+EYE_pupil_left_x
+EYE_sample_time && EYE_pupil_left_y
+EYE_pupil_left_y
+EYE_sample_time && EYE_pupil_left_x
+EYE_pupil_size_right
+EYE_sample_time
+EYE_pupil_size_left
+EYE_sample_time
+EYE_calib_x
+EYE_sample_time && EYE_calib_y && EYE_raw_x && EYE_raw_y
+EYE_calib_y
+EYE_sample_time && EYE_calib_x && EYE_raw_x && EYE_raw_y
+EYE_calib_z
+EYE_sample_time && EYE_calib_x && EYE_calib_y && EYE_raw_x && EYE_raw_y && EYE_raw_z
+EYE_saccade
+EYE_sample_time && EYE_calib_x && EYE_calib_y
